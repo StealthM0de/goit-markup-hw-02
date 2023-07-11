@@ -102,9 +102,22 @@
   letter-spacing: 0.05em;
 }
 
+.btn.secondary {
+  background-color: var(--cloudcolor);
+  color: var(--navcolor);
+  font-weight: 800;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+}
+
 .btn.primary:hover,
 .btn.primary:focus {
   background-color: hotpink;
+}
+
+.btn.secondary:hover,
+.btn.secondary:focus {
+  background-color: var(--oceancolor);
 }
 
 .declist.titlelist {
@@ -152,5 +165,3 @@
   line-height: 24px;
   letter-spacing: 0.32px;
 }
-
-/*--Portfolio Style--*/
