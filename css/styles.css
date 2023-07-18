@@ -10,14 +10,14 @@
   --cloudcolor: #f4f4fd;
 }
 
-.link-logo {
+.logo-link {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-size: 30px;
   line-height: 1.5px;
 }
 
-.web-logo {
+.logo {
   color: var(--iriscolor);
   font-size: 18px;
   font-weight: 800;
@@ -26,7 +26,7 @@
   text-transform: uppercase;
 }
 
-.studio-logo {
+.studio {
   color: var(--navyblue);
   font-size: 18px;
   font-weight: 800;
@@ -35,7 +35,7 @@
   text-transform: uppercase;
 }
 
-.studio-logo2 {
+.studio-footer {
   color: var(--whitecolor);
   font-size: 18px;
   font-weight: 800;
@@ -44,7 +44,7 @@
   text-transform: uppercase;
 }
 
-.navbar .pages {
+.nav-menu .page {
   color: var(--navcolor);
   text-decoration: none;
   font-size: 16px;
@@ -53,19 +53,19 @@
   letter-spacing: 0.05em;
 }
 
-.lists {
+.list {
   list-style-type: none;
 }
 
-.navbar .pages:hover,
-.navbar .pages:focus,
-.navbar .pages.currentoption,
-.contact-info .info:hover,
-.contact-info .info:focus {
+.nav-menu .page:hover,
+.nav-menu .page:focus,
+.nav-menu .page.current,
+.contacts-menu .item:hover,
+.contacts-menu .item:focus {
   color: var(--oceancolor);
 }
 
-.contact-info .info {
+.contacts-menu .item {
   color: var(--navcolor);
   font-size: 16px;
   font-weight: 400;
@@ -74,11 +74,11 @@
   text-decoration: none;
 }
 
-.bg-section1 {
+.bg-hero {
   background-color: var(--navyblue);
 }
 
-.h1-title {
+.hero-title {
   color: var(--whitecolor);
   font-size: 50px;
   font-weight: 800;
@@ -87,14 +87,14 @@
   text-align: center;
 }
 
-.btn {
+.button {
   cursor: pointer;
   border-color: transparent;
   letter-spacing: 0.05em;
   font-family: inherit;
 }
 
-.btn.primary {
+.button.primary {
   background-color: var(--oceancolor);
   color: var(--whitecolor);
   font-weight: 800;
@@ -102,7 +102,7 @@
   letter-spacing: 0.05em;
 }
 
-.btn.secondary {
+.button.filter {
   background-color: var(--cloudcolor);
   color: var(--navcolor);
   font-weight: 800;
@@ -110,24 +110,24 @@
   letter-spacing: 0.05em;
 }
 
-.btn.primary:hover,
-.btn.primary:focus {
+.button.primary:hover,
+.button.primary:focus {
   background-color: hotpink;
 }
 
-.btn.secondary:hover,
-.btn.secondary:focus {
+.button.filter:hover,
+.button.filter:focus {
   background-color: var(--oceancolor);
 }
 
-.declist.titlelist {
+.description.title {
   font-weight: 800;
   font-size: 14px;
   line-height: 1.5;
   color: var(--slatecolor);
 }
 
-.sectiontitle {
+.section-title {
   text-align: center;
   color: var(--navyblue);
   font-size: 36px;
@@ -135,7 +135,7 @@
   line-height: 1.5;
 }
 
-.teamname {
+.name {
   color: var(--navyblue);
   font-size: 20px;
   font-style: normal;
@@ -144,7 +144,7 @@
   letter-spacing: 0.4px;
 }
 
-.position {
+.type {
   color: var(--slatecolor);
   font-size: 16px;
   font-style: normal;
@@ -153,11 +153,11 @@
   letter-spacing: 0.32px;
 }
 
-.footerbg {
+.bg-footer {
   background-color: var(--navyblue);
 }
 
-.footer-bottom-text {
+.footer-description {
   color: var(--cloudcolor);
   font-size: 16px;
   font-style: normal;
